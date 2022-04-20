@@ -1,0 +1,129 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.12957346238916492 -0.9572459299294322 0.25863284299953104 5.318870381824856
+  position -3.855304907527473 -0.3922266353798714 2.6874506971985093
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+Cabinet {
+  translation 1.6 1 0
+  primaryAppearance PaintedWood {
+    colorOverride 0.5 0.4 0
+  }
+}
+OfficeChair {
+  translation -1.4 -0.4 0
+}
+UR5e {
+  translation -0.2 0.8 0.75
+  rotation 0 0 1 3.14
+  name "Chotemiya"
+  toolSlot [
+    Camera {
+    }
+    Robotiq3fGripper {
+    }
+    DistanceSensor {
+    }
+  ]
+}
+Table {
+  size 1.5 2.5 0.74
+}
+Monitor {
+  translation -0.6 -1 0.74
+  rotation 0 0 1 2.57
+}
+BeerBottle {
+  translation 0 0.3 0.77
+  rotation 0 1 0 1.5708
+}
+BeerBottle {
+  translation 0.2 0.2 0.77
+  rotation 0.1294279597735375 0.9831056944488314 -0.1294279597735375 1.58784
+  name "beer bottle(1)"
+}
+Can {
+  translation 0.3 0.01 0.77
+  rotation 0.357405946367489 0.8628568705192763 0.357405946367489 -1.7177753071795863
+  name "can 1"
+}
+Can {
+  translation 0.3 -0.1 0.768
+  rotation 0 1 0 1.57
+  name "can 2"
+}
+SolidBox {
+  translation 0 0.2 0.75
+  name "box 2"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.1 0.1 0.75
+  rotation 0 0 1 0.2
+  name "box 4"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0 0 0.75
+  name "box 1"
+  size 0.1 0.1 0.1
+}
+SolidBox {
+  translation 0.2 0 0.75
+  name "box 3"
+  size 0.1 0.1 0.1
+}
+UR5e {
+  translation 0.2 -0.8 0.75
+  name "Bademiya"
+  toolSlot [
+    Robotiq3fGripper {
+    }
+    DistanceSensor {
+    }
+    Camera {
+      rotation 0 1 0 0
+    }
+  ]
+}
+Wall {
+  translation 2.38 0 0
+  size 0.2 5 2
+  appearance Roughcast {
+    colorOverride 0.4 0.2 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0 -2.38 0
+  rotation 0 0 1 1.5708
+  name "wall(2)"
+  size 0.2 4.8 2
+  appearance Roughcast {
+    colorOverride 0.4 0.2 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -2.38 0 0
+  name "wall(1)"
+  size 0.2 5 2
+  appearance Roughcast {
+    colorOverride 0.4 0.2 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
